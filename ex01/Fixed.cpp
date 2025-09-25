@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Fixed.cpp                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: qais <qais@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: qhatahet <qhatahet@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/19 16:20:52 by qhatahet          #+#    #+#             */
-/*   Updated: 2025/09/23 13:22:35 by qais             ###   ########.fr       */
+/*   Updated: 2025/09/24 17:06:18 by qhatahet         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,6 @@ Fixed::Fixed(const float fpn_val)
 
 Fixed::Fixed(const Fixed &other)
 {
-	// this->fpn=other.fpn;
 	*this = other;
 	std::cout << "Copy constructor called" << std::endl;
 }
